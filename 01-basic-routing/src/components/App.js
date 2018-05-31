@@ -29,7 +29,12 @@ class App extends Component {
             </ul>
             <hr/>
             {/* Router inject the HISTORY API OBJECT in its children as props */}
-            {/* History API object contains: history, location, match */}
+            {/*
+              History API object contains: 
+              HISTORY,
+              LOCATION,
+              MATCH
+            */}
             <Route exact path="/" component={Home} />
             <Route path="/hello" component={Hello} />
             <Route path="/about" component={About} />
