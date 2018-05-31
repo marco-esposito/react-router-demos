@@ -1,3 +1,5 @@
+// NOTE: from http://stellarcode.co/
+
 import React, { Component } from 'react';
 import '../styles/App.css';
 
@@ -30,7 +32,7 @@ class App extends Component {
             <hr/>
             {/* Router inject the HISTORY API OBJECT in its children as props */}
             {/*
-              History API object contains: 
+              History API object contains:
               HISTORY,
               LOCATION,
               MATCH
